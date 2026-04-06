@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DANH SÁCH BÀI TẬP LAB 01"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/btnBai1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÀI 1"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btnBai2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÀI 2"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btnBai5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÀI 5"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btnBai7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÀI 7"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnBai7bs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÀI 7.1"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnBai8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÀI 8"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnBai8bs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÀI 8.1"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnBai9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÀI 9"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

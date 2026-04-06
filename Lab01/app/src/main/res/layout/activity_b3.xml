@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3f51b5">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DemoTableLayout"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#008577"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:stretchColumns="1">
+        <TableRow android:layout_marginBottom="10dp">
+            <TextView
+                android:text="User Name"
+                android:textColor="#00bcd4"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/edtUser"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Nhập tài khoản"
+                android:paddingLeft="10dp"/>
+        </TableRow>
+        <TableRow android:layout_marginBottom="10dp">
+            <TextView
+                android:text="Password"
+                android:textColor="#00bcd4"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Nhập mật khẩu"/>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:text="GPTPN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:background="#00967D"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="a ="
+            android:textColor="#F44336"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtA"
+        android:hint="Nhập a"
+        android:textColor="#00BCD4"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="b ="
+            android:textSize="18sp"
+            android:textColor="#F44336"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtB"
+        android:hint="Nhập b"
+        android:textColor="#00BCD4"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="c ="
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#F44336"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtC"
+        android:hint="Nhập c"
+        android:textColor="#00BCD4"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/btnGiai"
+            android:text="Giải"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"/>
+        <Button
+            android:id="@+id/btnXoa"
+            android:text="Xóa"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:text="Kết quả....."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#009657"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

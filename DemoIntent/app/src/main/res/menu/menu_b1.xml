@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@drawable/add"
+        android:title="Add"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_more"
+        android:title="More"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu_setting"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/menu_refresh"
+                android:title="Refresh"/>
+            <item
+                android:id="@+id/menu_ablum"
+                android:title="Select ablum"/>
+
+            <item
+                android:title="Contact">
+                <menu>
+                    <item
+                        android:id="@+id/menu_phone"
+                        android:title="phone"/>
+                    <item
+                        android:id="@+id/menu_email"
+                        android:title="email"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+
+
+</menu>

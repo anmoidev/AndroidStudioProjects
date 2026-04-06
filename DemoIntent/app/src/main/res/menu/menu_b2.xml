@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_find"
+        android:icon="@drawable/tk"
+        android:title="Find"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_info"
+        android:icon="@drawable/add"
+        android:title="Info"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="More"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:title="Setting">
+                <menu>
+                    <item
+                        android:id="@+id/menu_addb2"
+                        android:title="add"/>
+                    <item
+                        android:id="@+id/menu_update"
+                        android:title="update"/>
+                    <item
+                        android:id="@+id/menu_delete"
+                        android:title="delete"/>
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/menu_feedback"
+                android:title="Feedback"/>
+            <item
+                android:id="@+id/menu_help"
+                android:title="Help"/>
+        </menu>
+    </item>
+
+</menu>
